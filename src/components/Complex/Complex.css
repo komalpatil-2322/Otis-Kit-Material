@@ -1,0 +1,43 @@
+.complex-container {
+  width: 80%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.complex-container img {
+  height: 400px;
+  width: 106%;
+  align-items: center;
+  object-fit: cover;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+
+.complex-container img {
+  opacity: 0.6; /* 0 = fully transparent, 1 = fully opaque */
+}
+
+.complex-content {
+  position: absolute;
+  bottom: 32px;
+  left: 110px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* optional overlay */
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: 104%;
+}
+
+.complex-content h3 {
+  font-size: 30px;
+}
+
+.complex-content h1 {
+  font-size: 40px;
+}
+
+.complex-content p {
+  font-size: 20px;
+  font-weight: 400;
+}

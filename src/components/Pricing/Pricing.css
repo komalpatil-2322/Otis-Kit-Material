@@ -1,0 +1,245 @@
+.pricing-container {
+  width: 100%;
+
+  margin-top: 160px;
+  margin-bottom: 50px;
+}
+
+.pricing-heading {
+  height: 400px;
+  text-align: center;
+  color: #fff;
+  background-color: #0288d1;
+}
+
+.pricing-heading h5 {
+  display: inline-block;
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 120px;
+}
+
+.pricing-heading h1 {
+  margin-top: -20px;
+}
+
+.pricing-heading p {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.pricing-card {
+  width: 85%;
+
+  display: flex;
+  justify-content: space-around;
+  margin-left: 110px;
+  margin-top: -80px;
+  gap: 20px;
+}
+
+.pricingfirst-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  max-width: 260px;
+}
+
+.pricingfirst-card h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: rgb(52, 71, 103);
+}
+
+.pricingfirst-card p {
+  color: rgb(52, 71, 103);
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: start;
+  color: rgb(52, 71, 103);
+}
+
+.btn {
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  width: 100%;
+  color: white;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.features {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.features li {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 25px;
+  color: rgb(123, 128, 154);
+}
+
+.features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #000;
+}
+
+.pricingthird-card {
+  background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  max-width: 260px;
+}
+
+.pricingthird-card h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.pricingthird-card p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.pricingfirst-price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  align-items: start;
+  color: #fff;
+}
+
+.pricingfirst-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(52, 71, 103);
+  box-shadow: rgba(255, 255, 255, 0.15) 0rem 0.1875rem 0.1875rem 0rem,
+    rgba(255, 255, 255, 0.2) 0rem 0.1875rem 0.0625rem -0.125rem,
+    rgba(255, 255, 255, 0.15) 0rem 0.0625rem 0.3125rem 0rem;
+  padding: 10px 25px;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.pricingfirst-features {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.pricingfirst-features li {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 25px;
+  color: #fff;
+}
+
+.pricingfirst-features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #fff;
+}
+
+.pricing-text {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(123, 128, 154);
+}
+
+.pricing-info {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(123, 128, 154);
+}
+
+.pricing-last {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  color: rgb(123, 128, 154);
+}
+
+.text-head {
+  font-size: 20px;
+  color: rgb(73, 77, 97);
+}
+
+.text-bot {
+  font-size: 18px;
+}
+.pricinglast-right {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 50px;
+}
+.btnn-tweet {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  background-color: #0a90d8;
+}
+
+.btnn-share {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  background-color: #042f47;
+}
+
+.btnn-pin {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  background-color: red;
+}
+
+.btnn:hover {
+  opacity: 0.8;
+}

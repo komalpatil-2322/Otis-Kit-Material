@@ -1,0 +1,44 @@
+.material-wrapper {
+  background-color: #f0f0f0;
+  position: relative;
+  border-radius: 10px;
+}
+
+.material {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-compo {
+  position: absolute;
+  top: -60px;
+}
+
+.material .card {
+  width: 300px;
+
+  transition: transform 0.2s;
+  margin: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.line {
+  border-left: 1px solid rgb(226, 226, 226);
+  height: 200px;
+}
+
+.card h1 {
+  font-size: 50px;
+  color: rgb(26, 115, 232);
+}
+
+.card h3 {
+  margin-top: -20px;
+  color: rgb(52, 71, 103);
+}
+
+.card span {
+  color: rgb(110, 109, 109);
+}
